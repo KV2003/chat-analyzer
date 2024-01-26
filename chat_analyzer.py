@@ -67,11 +67,11 @@ if uploaded_file is not None:
             plt.xticks(rotation='vertical')
             st.pyplot(fig)
         #Activity heatmap
-        st.title("Weekly activity map")
-        user_heatmap=stats.activity_heatmap(selected_user,df)
-        fig,ax=plt.subplots()
-        ax=sns.heatmap(user_heatmap)
-        st.pyplot(fig)
+        # st.title("Weekly activity map")
+        # user_heatmap=stats.activity_heatmap(selected_user,df)
+        # fig,ax=plt.subplots()
+        # ax=sns.heatmap(user_heatmap)
+        # st.pyplot(fig)
         #busiest user in chat(Group level)
         if selected_user=='Overall':
             st.title('Most active user')
